@@ -12,21 +12,25 @@
 Определить список установленных сетевых устройств
 
 ![Alt text](https://raw.githubusercontent.com/vovakulikov/absUNIX/master/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202017-04-04%2020-55-58.png)
+
 *Команда: lspci | grep Ethernet.*
 
 Определить параметры сетевых интерфейсов.
 
 ![Alt text](https://raw.githubusercontent.com/vovakulikov/absUNIX/master/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202017-04-04%2020-57-08.png)
+
 *Команда: ifconfig -a.*
 
 Определить статические маршруты сети.
 
 ![Alt text](https://raw.githubusercontent.com/vovakulikov/absUNIX/master/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202017-04-04%2020-57-49.png)
+
 *Команда route*
 
 Определить режим маршрутизации ядра (включена или выключена).
 
 ![Alt text](https://raw.githubusercontent.com/vovakulikov/absUNIX/master/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202017-04-04%2020-59-15.png)
+
 *Команда: cat /proc/sys/net/ipv4/ip_forward.*
 
 
@@ -99,10 +103,12 @@
 
 ## Проверка работы
 ![Alt text](https://raw.githubusercontent.com/vovakulikov/absUNIX/master/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202017-04-04%2021-19-51.png)
+
 Команда: service 5_4341_Kulikov start, service 5_4341_Kulikov status.
 
 
 ![Alt text](https://raw.githubusercontent.com/vovakulikov/absUNIX/master/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202017-04-04%2021-20-49.png)
+
 Команда: service 5_4341_Kulikov stop, service 5_4341_Kulikov status.
 
 # Вывод
